@@ -7,43 +7,53 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header>
-      <div class="logo">
-        <h1><a href="#">BlueWorks Studio</a></h1>
-      </div>
-      <div class="header-navigation">
-        <button class="menu" type="button">メニュー</button>
-        <nav class="navigation">
-          <ul>
-            <li><a class="btn service" href="#service">Service</a></li>
-            <li><a class="btn works" href="#works">Works</a></li>
-            <li><a class="btn about" href="#about">About</a></li>
-            <li><a class="btn contact" href="#contact">Contact</a></li>
+    <header class="header">
+      <div class="container header-container">
+        <h1 class="logo">
+          <a href="#">BlueWorks Studio</a>
+        </h1>
+        <button class="menu-button" type="button">メニュー</button>
+        <nav class="header-nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#service">Service</a></li>
+            <li class="nav-item"><a href="#works">Works</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
       <section class="hero">
-        <div class="container"></div>
+        <div class="container hero-container">
+          <div class="hero-content">
+            <p class="hero-label">BlueWorks Studio</p>
+            <h2 class="hero-title">Web制作で、<br>ビジネスの第一印象を整える。</h2>
+            <p class="hero-text">BlueWorks Studioは、見やすく使いやすいWebサイト制作を行う架空の制作スタジオです。<br>情報設計・コーディング・レスポンシブ対応まで、基本を大切にしたWeb制作を目指します。</p>
+            <a class="btn hero-button" href="#service">制作内容を見る</a>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-visual-box"></div>
+          </div>
+        </div>
       </section>
       <section class="service" id="service">
-        <div class="container"></div>
+        <div class="container service-container"></div>
       </section>
       <section class="works" id="works">
-        <div class="container"></div>
+        <div class="container works-container"></div>
       </section>
       <section class="feature">
-        <div class="container"></div>
+        <div class="container feature-container"></div>
       </section>
       <section class="about" id="about">
-        <div class="container"></div>
+        <div class="container about-container"></div>
       </section>
       <section class="contact" id="contact">
-        <div class="container"></div>
+        <div class="container contact-container"></div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer"></footer>
     <script src="js/main.js"></script>
   </body>
 </html>
