@@ -172,3 +172,309 @@ ul {
   font-size: 15px;
   line-height: 1.8;
 }
+
+.works-list {
+  display: flex;
+  gap: 24px;
+}
+
+.works-card {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.works-image {
+  height: 160px;
+  background-color: #e0ecff;
+}
+
+.works-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 24px 24px 12px;
+}
+
+.works-card-text {
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0 24px 24px;
+}
+
+.feature-list {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-item {
+  flex: 1;
+  background-color: #fff;
+  padding: 32px 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.feature-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.feature-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.feature-text {
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+
+.about-table {
+  width: 100%;
+  background-color: #fff;
+  border-collapse: collapse;
+}
+
+.about-table th,
+.about-table td {
+  border: 1px solid #e5e7eb;
+  padding: 16px 20px;
+}
+
+.about-table th {
+  width: 160px;
+  background-color: #f1f5f9;
+  font-weight: 700;
+  text-align: left;
+}
+
+.about-table td {
+  background-color: #fff;
+}
+
+.contact-content {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.contact-text {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08);
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font: inherit;
+  background-color: #fff;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.form-button {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+}
+
+.form-message {
+  margin-top: 16px;
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #0f172a;
+  color: #fff;
+  padding: 32px 0;
+  text-align: center;
+}
+
+.footer-container small {
+  font-size: 14px;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 767px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .header-container {
+    min-height: 64px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .menu-button {
+    display: block;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .header-nav {
+    display: none;
+    width: 100%;
+  }
+
+  .header-nav.is-open {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    padding: 16px 0;
+  }
+
+  .nav-item a {
+    display: block;
+    padding: 8px 0;
+  }
+
+  .hero {
+    padding: 56px 0;
+  }
+
+  .hero-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+  
+  .hero-text br {
+    display: none;
+  }
+  .hero-visual {
+    display: none;
+  }
+
+  .hero-visual-box {
+    max-width: 100%;
+    height: 220px;
+  }
+
+  .service,
+  .works,
+  .feature,
+  .about,
+  .contact {
+    padding: 56px 0;
+  }
+
+  .section-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .service-list,
+  .works-list,
+  .feature-list {
+    flex-direction: column;
+  }
+
+  .service-card,
+  .works-card,
+  .feature-item {
+    width: 100%;
+  }
+
+  .works-image {
+    height: 180px;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about-table th,
+  .about-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .about-table th {
+    border-bottom: none;
+  }
+
+  .contact-form {
+    padding: 24px;
+  }
+
+  .form-button {
+    max-width: 100%;
+  }
+
+  .footer {
+    padding: 24px 0;
+  }
+}
