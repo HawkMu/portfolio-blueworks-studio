@@ -327,10 +327,12 @@ ul {
 }
 
 .form-button {
+  display: block;
   border: none;
   cursor: pointer;
   width: 100%;
   max-width: 200px;
+  margin: 0 auto;
 }
 
 .form-message {
