@@ -2,7 +2,7 @@
 
 ## 概要
 
-BlueWorks Studioは、HTML / CSS / JavaScript の基礎学習およびポートフォリオ提出を目的として制作した、架空のWeb制作会社のランディングページです。
+BlueWorks Studioは、HTML / CSS / JavaScriptの基礎学習およびポートフォリオ提出を目的として制作した、架空のWeb制作会社のランディングページです。
 
 Webサイト制作における情報整理、コーディング、レスポンシブ対応を意識し、1ページ構成のサイトとして作成しました。
 
@@ -21,7 +21,7 @@ https://hawkmu.github.io/portfolio-blueworks-studio/
 ## 実装内容
 
 - 1ページ構成のランディングページ
-- Header / Hero / Service / Works / Feature / About / Contact / Footer の各セクション実装
+- Header / Hero / Service / Works / Feature / About / Contact / Footerの各セクション実装
 - PC / スマートフォン対応のレスポンシブデザイン
 - スマートフォン表示時のハンバーガーメニュー
 - ページ内リンクによる各セクションへの移動
@@ -31,11 +31,11 @@ https://hawkmu.github.io/portfolio-blueworks-studio/
 ## 工夫した点
 
 - 各セクションの役割が分かりやすくなるよう、情報を整理して構成しました。
-- Service / Works / Feature はカード形式にし、内容を視覚的に分かりやすくしました。
+- Service / Works / Featureはカード形式にし、内容を視覚的に分かりやすくしました。
 - Worksでは外部画像素材を使用せず、CSSによる画像風エリアで表現しました。
 - Aboutではテーブルを使用し、スタジオ概要を整理して表示しました。
 - Contactフォームでは、実際の送信は行わず、JavaScriptで案内メッセージを表示するようにしました。
-- スマートフォン表示では、カードを1列表示にし、ハンバーガーメニューでナビゲーションを操作できるようにしました。
+- スマートフォン表示ではカードを1列表示にし、ハンバーガーメニューでナビゲーションを操作できるようにしました。
 
 ## 注意事項
 
@@ -62,8 +62,9 @@ https://hawkmu.github.io/portfolio-blueworks-studio/
 
 実装に関しては、Progateで学習済みのHTML / CSSをもとに自分で実装した箇所に加え、Progateで未学習だった内容については、AIの補助を受けながら実装しました。
 
-実装後は、表示確認、レイアウト調整、動作確認、Git / GitHubでの管理、GitHub Pages公開作業を自分で行いました。  
-AIの補助を受けた箇所については、提出後も復習し、理解を深めていく予定です。
+実装後は、表示確認、レイアウト調整、動作確認、Git / GitHubでの管理、GitHub Pagesへの公開作業を自分で行いました。
+
+AIの補助を受けた箇所については、今後も復習し、理解を深めていきます。
 
 ## リポジトリ
 
